@@ -1,0 +1,55 @@
+.img-banner {
+    background-image: url(/img/cat.jpg);
+    background-size: cover;
+    background-position: center;
+    position: static;
+    
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+}
+
+.navigation-logo img {
+    height: 40px;
+    width: 170px;
+}
+
+.navigation-pages {
+    font-family: Poppins, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding-right: 20px;
+    color: var(--p-text-color);
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: rgb(255, 91, 46);
+    border-bottom: solid;
+}
+
+.navigation-social img {
+    height: 25px;
+    width: 25px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.banner {
+    padding-top: 170px ;
+    width: 50%;
+}
+
+.banner__text h1 {
+    font-size: 62px;
+}

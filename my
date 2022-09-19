@@ -1,0 +1,42 @@
+<nav>
+        <div class="nav-container">
+          <div class="header-logo">
+            <a class="logo-link" href="#">
+              <img src="img/logo.svg" alt="top"/>
+          </a>
+          </div>
+          <ul class="header-nav-menu">
+            <li><a href="#about-us" class="header-nav__menu-item">About us</a></li>
+            <li><a href="#services" class="header-nav__menu-item">Services</a></li>
+            <li><a href="#team" class="header-nav__menu-item">Our team</a></li>
+            <li><a href="#faq" class="header-nav__menu-item">FAQ</a></li>
+            <li><a href="#contacts" class="header-nav__menu-item">Contacts</a></li>
+          </ul>
+          <div class="header-nav-links">
+            <a href="https://www.facebook.com/">
+              <img
+              class="social__networks__header"
+              src="img/facebook.png"
+              alt="facebook"/>
+            </a>
+            <a href="https://www.instagram.com/">
+              <img
+              class="social__networks__header"
+              src="img/instagram.png"
+              alt="instagram"/>
+            </a>
+            <a href="https://twitter.com/">
+              <img
+              class="social__networks__header"
+              src="img/twitter.png"
+              alt="twitter"/>
+            </a>
+            <a href="https://www.youtube.com/">
+              <img
+              class="social__networks__header"
+              src="img/youtube.png"
+              alt="youtube"/>
+            </a>
+          </div>
+        </div>
+      </nav>

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+
+:root {
+  font-family: 'Rubik', sans-serif;
+  --p-text-color: rgb(106, 110, 143);
+  --h-text-color: rgb(4, 15, 115);
+  scroll-behavior: smooth;
+  --bkg-clr: #fff6ed;
+  }
+
+body {
+  background-color: var(--bkg-clr);
+}
+
+h1, h2, h3 {
+    color: var(--h-text-color);
+    font-family: 'Rubik', sans-serif;
+  }
+
+p {
+    color: var(--p-text-color);
+    font-family: 'Poppins', sans-serif;
+  }
+
+[class*="-btn"] {
+    background-color: rgb(255, 91, 46);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border-bottom-style: solid;
+    font-size: 15.4px;
+    padding: 16px 28px 16px 28px;
+    line-height: 1.2em;
+    transition: 0.6s linear;
+
+  }
